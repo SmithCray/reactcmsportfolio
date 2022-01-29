@@ -12,25 +12,20 @@ import profile from "../assets/p2cray.png";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { PDFDownloadLink, Document, Page } from "@react-pdf/renderer";
-
-const MyDoc = () => (
-  <Document>
-    <Page>// My document data</Page>
-  </Document>
-);
 
 function Body() {
   return (
     <div>
       <Row>
-        <div id="aboutMe">About me:</div>
-        <img
-          id="profilePic"
-          className="card-img-top"
-          src={profile}
-          alt="Cray Smith Profile"
-        ></img>
+        <Col>
+          <div id="aboutMe">About me:</div>
+          <img
+            id="profilePic"
+            className="card-img-top"
+            src={profile}
+            alt="Cray Smith Profile"
+          ></img>
+        </Col>
       </Row>
       <Row>
         <Col>
@@ -55,27 +50,37 @@ function Body() {
           </p>
         </Col>
       </Row>
-      <h2 id="featured">Featured:</h2>
+      <Row>
+        <Col>
+          <h2 id="featured">Featured:</h2>
+        </Col>
+      </Row>
       <Row id="venueFinder" className="card-body">
-        <img
-          className="card-img-top"
-          src={venue}
-          alt="Venue Project Preview"
-        ></img>
-        <h5 className="card-title card-body">Venue Finder</h5>
-        <p className="card-text card-body">
-          This Venue Finder allows a user to have one website they can access in
-          order to find music venues in whatever city they would like to search.
-          This provides the user with a list of the 9 most popular venues in the
-          city and gives links and addresses for easy access to find
-          tickets/events for that venue.
-        </p>
-        <a href="https://bitly.com/venuefinder" className="btn btn-primary">
-          Visit Venue Finder
-        </a>
+        <Col>
+          <img
+            className="card-img-top"
+            src={venue}
+            alt="Venue Project Preview"
+          ></img>
+          <h5 className="card-title card-body">Venue Finder</h5>
+          <p className="card-text card-body">
+            This Venue Finder allows a user to have one website they can access
+            in order to find music venues in whatever city they would like to
+            search. This provides the user with a list of the 9 most popular
+            venues in the city and gives links and addresses for easy access to
+            find tickets/events for that venue.
+          </p>
+          <a href="https://bitly.com/venuefinder" className="btn btn-primary">
+            Visit Venue Finder
+          </a>
+        </Col>
       </Row>
       <Row>
-        <h3 id="myWork">My Work:</h3>
+        <Col>
+          <h3 id="myWork">My Work:</h3>
+        </Col>
+      </Row>
+      <Row>
         <Col className="card-body">
           <img
             className="card-img-top"
@@ -200,7 +205,12 @@ function Body() {
         <Col id="resume" className="card-body">
           <img className="card-img-top" src={resume} alt="A laptop"></img>
           <h5 className="card-title card-body">My Resume</h5>
-          <a href={resumePdf} target="_blank" className="btn btn-primary">
+          <a
+            href={resumePdf}
+            rel="noreferrer"
+            target="_blank"
+            className="btn btn-primary"
+          >
             Download my Resume
           </a>
         </Col>
