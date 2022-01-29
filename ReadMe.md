@@ -28,7 +28,7 @@ Using new and bright technology like [React](https://reactjs.org/) we want to di
 
 #
 
-![React Portfolio Preview](src\assets\ReactPortPrev.png)
+![React Portfolio Preview](./src/assets/ReactPortPrev.png)
 
 ### **Links**
 
