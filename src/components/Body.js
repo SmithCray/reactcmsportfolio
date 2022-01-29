@@ -172,7 +172,6 @@ function Body() {
             Look at them now!
           </a>
         </Col>
-
         <Col className="card-body">
           <img
             className="card-img-top"
