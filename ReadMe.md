@@ -4,7 +4,7 @@
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
-Using new and bright technology like React we want to display our goals, accomplishments, and skills in a simple single-page application for potential employers to see. Our page consists of a deployed React portfolio of work samples, including a link to the corresponding GitHub or deployed application as well as a preview Snippet of the app. Our React app contains three major componants presented to the user including the Header, Body, and Footer. Our header features click navigation with titles corresponding to different sections of the portfolio allowing for easy simple navigation. Our user is presented with the titles About Me, My Work, Contact Me, and Resume.
+Using new and bright technology like React we want to display our goals, accomplishments, and skills in a simple single-page application for potential employers to see. Our page consists of a deployed React portfolio of work samples, including a link to the corresponding GitHub or deployed application as well as a preview Snippet of the app. Our React app contains three major componants presented to the user including the Header, Body, and Footer. Our header features click navigation with titles corresponding to different sections of the portfolio allowing for easy simple navigation. Our user is presented with the titles About Me, My Work, Contact Me, and Resume. In addition to our Header and Body components the footer presents the user with simple easy to use onclick links to my GitHub profile, LinkedIn, and Email.
 
 <br>
 
@@ -25,14 +25,6 @@ Using new and bright technology like React we want to display our goals, accompl
         Resume.pdf Download
 
 <br>
-
-### **Install and Usage:**
-
-#
-
-<br>
-
-### Preview:
 
 #
 
