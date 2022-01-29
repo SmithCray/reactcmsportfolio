@@ -50,7 +50,7 @@ https://github.com/SmithCray/reactcmsportfolio
 
 ### <span style="color:orange">**Cray Smith**</span>
 
-<img src="src\assets\p2cray.PNG" alt="Cray Smith GitHub" width="150px">
+<img src="src\assets\p2cray.png" alt="Cray Smith GitHub" width="150px">
 
 GitHub Link:
 <br>

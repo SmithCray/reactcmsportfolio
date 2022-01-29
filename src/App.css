@@ -26,6 +26,9 @@
   font-size: 25px;
   font-weight: bold;
 }
+#profilePic {
+  width: 175px;
+}
 .navbar {
   color: black;
   font-size: 65px;

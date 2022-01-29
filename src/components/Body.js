@@ -8,6 +8,7 @@ import resume from "../assets/resume.jpg";
 import horiseon from "../assets/Horiseon.png";
 import eShopper from "../assets/eShopperInsomnia.png";
 import resumePdf from "../assets/SmithCrayResume.pdf";
+import profile from "../assets/p2cray.png";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -22,25 +23,38 @@ const MyDoc = () => (
 function Body() {
   return (
     <div>
-      <div id="aboutMe">About me:</div>
-      <p id="headLine" className="article">
-        "GREATNESS takes PATIENCE and PRACTICE!"
-      </p>
-      <p className="article">
-        Hi my name is Cray Smith! I'm currently a student at DU under the
-        Full-Stack Flex program nearing the end of the course. I'm excited to
-        learn all I can and create something new and exciting! Moving forward my
-        goal is to continue to challenge myself by learning new technologies and
-        improving on the knowledge I've gained thus far. In addition to looking
-        to the future I plan to build on the foundations I've developed at DU
-        and the knowledge gained throughout my education. As a Junior Developer
-        I want to gain reliable real-world experience in a challenging and
-        thriving environment while building on the tools and techniques I've
-        learned so far. My goal for the future is to establish a position in
-        Coding and Development with a Career and Team driven company where I can
-        gain real-world experience, and use new technologies all in a thriving
-        and challenging work environment.
-      </p>
+      <Row>
+        <div id="aboutMe">About me:</div>
+        <img
+          id="profilePic"
+          className="card-img-top"
+          src={profile}
+          alt="Cray Smith Profile"
+        ></img>
+      </Row>
+      <Row>
+        <Col>
+          <p id="headLine" className="article">
+            "GREATNESS takes PATIENCE and PRACTICE!"
+          </p>
+          <p className="article">
+            Hi my name is Cray Smith! I'm currently a student at DU under the
+            Full-Stack Flex program nearing the end of the course. I'm excited
+            to learn all I can and create something new and exciting! Moving
+            forward my goal is to continue to challenge myself by learning new
+            technologies and improving on the knowledge I've gained thus far. In
+            addition to looking to the future I plan to build on the foundations
+            I've developed at DU and the knowledge gained throughout my
+            education. As a Junior Developer I want to gain reliable real-world
+            experience in a challenging and thriving environment while building
+            on the tools and techniques I've learned so far. My goal for the
+            future is to establish a position in Coding and Development with a
+            Career and Team driven company where I can gain real-world
+            experience, and use new technologies all in a thriving and
+            challenging work environment.
+          </p>
+        </Col>
+      </Row>
       <h2 id="featured">Featured:</h2>
       <Row id="venueFinder" className="card-body">
         <img
