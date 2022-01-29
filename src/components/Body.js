@@ -55,8 +55,8 @@ function Body() {
           <h2 id="featured">Featured:</h2>
         </Col>
       </Row>
-      <Row id="venueFinder" className="card-body">
-        <Col>
+      <Row id="venueFinder">
+        <Col className="card-body">
           <img
             className="card-img-top"
             src={venue}
