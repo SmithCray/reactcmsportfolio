@@ -4,51 +4,39 @@
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
-Using new and bright technology like React we want to display our goals, accomplishments, and skills in a simple single-page application for potential employers to see. Our page consists of a deployed React portfolio of work samples, including a link to the corresponding GitHub or deployed application as well as a preview Snippet of the app. Our React app contains three major componants presented to the user including the Header, Body, and Footer.
+Using new and bright technology like React we want to display our goals, accomplishments, and skills in a simple single-page application for potential employers to see. Our page consists of a deployed React portfolio of work samples, including a link to the corresponding GitHub or deployed application as well as a preview Snippet of the app. Our React app contains three major componants presented to the user including the Header, Body, and Footer. Our header features click navigation with titles corresponding to different sections of the portfolio allowing for easy simple navigation. Our user is presented with the titles About Me, My Work, Contact Me, and Resume.
+
+<br>
+
+- <span style="color:green">About Me</span>:
+
+        Small description about my work and journey as a junior dev
+
+- <span style="color:green">My Work</span>:
+
+        Work samples including applications, GitHub repository's, and Demo's
+
+- <span style="color:green">Contact Me</span>:
+
+        Contact information including GitHub, LinkedIn, and Email
+
+- <span style="color:green">Resume</span>:
+
+        Resume.pdf Download
+
+<br>
 
 ### **Install and Usage:**
 
 #
 
-<span style="color:green"> **Needed Dependancies;** </span>
-
-- [MySQL2](https://www.npmjs.com/package/mysql2) \_ _"mysql2": "^2.1.0",_
-
-- [Sequelize](https://www.npmjs.com/package/sequelize) \_ _"sequelize": "^5.21.7"_
-
-- [dotenv](https://www.npmjs.com/package/dotenv) \_ _"dotenv": "^8.2.0",_
-
-<span style= "color:green"> **Dev Dependencies (optional);** </span>
-
-<span style="color:yellow">1.</span> "nodemon": "^2.0.3"\_
-
-<span style= "color:green"> **Installation;** </span>
-
-<span style="color:yellow">1.</span> _npm i mysql2_
-
-<span style="color:yellow">2.</span> _npm i sequelize_
-
-<span style="color:yellow">3.</span> _npm i dotenv_
-
-<span style= "color:green"> **Console Commands;** </span>
-
-<span style="color:yellow">1.</span> start: "node server.js"
-
-<span style="color:yellow">2.</span> watch: "nodemon server.js"
-
-<span style="color:yellow">2.</span> seed: "node seeds/index.js"
-
 <br>
 
 ### Preview:
 
-"start": "node server.js",
-"watch": "nodemon server.js",
-"seed": "node seeds/index.js"
-
 #
 
-![Insomnia Preview](assets\eShopperInsomnia.PNG)
+![React Portfolio Preview](src\assets\ReactPortPrev.png)
 
 ### **Links**
 
