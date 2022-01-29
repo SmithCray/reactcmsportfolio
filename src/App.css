@@ -16,6 +16,16 @@
   font-weight: bold;
   text-align: center;
 }
+#featured {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#myWork {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
 .navbar {
   color: black;
   font-size: 65px;

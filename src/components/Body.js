@@ -22,7 +22,7 @@ function Body() {
         Hi my name is Cray Smith! I'm currently a student at DU under the
         Full-Stack Flex program nearing the end of the course. I'm excited to
         learn all I can and create something new and exciting! Moving forward my
-        goal is to continue to challenge myself by learn new technologies and
+        goal is to continue to challenge myself by learning new technologies and
         improving on the knowledge I've gained thus far. In addition to looking
         to the future I plan to build on the foundations I've developed at DU
         and the knowledge gained throughout my education. As a Junior Developer
@@ -33,6 +33,7 @@ function Body() {
         gain real-world experience, and use new technologies all in a thriving
         and challenging work environment.
       </p>
+      <h2 id="featured">Featured:</h2>
       <Row id="venueFinder" className="card-body">
         <img
           className="card-img-top"
@@ -52,7 +53,8 @@ function Body() {
         </a>
       </Row>
       <Row>
-        <Col id="myWork" className="card-body">
+        <h3 id="myWork">My Work:</h3>
+        <Col className="card-body">
           <img
             className="card-img-top"
             src={milehi}
