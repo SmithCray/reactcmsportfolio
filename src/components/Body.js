@@ -7,9 +7,17 @@ import gistthis from "../assets/Gistthis.png";
 import resume from "../assets/resume.jpg";
 import horiseon from "../assets/Horiseon.png";
 import eShopper from "../assets/eShopperInsomnia.png";
+import resumePdf from "../assets/SmithCrayResume.pdf";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { PDFDownloadLink, Document, Page } from "@react-pdf/renderer";
+
+const MyDoc = () => (
+  <Document>
+    <Page>// My document data</Page>
+  </Document>
+);
 
 function Body() {
   return (
@@ -179,7 +187,7 @@ function Body() {
         <Col id="resume" className="card-body">
           <img className="card-img-top" src={resume} alt="A laptop"></img>
           <h5 className="card-title card-body">My Resume</h5>
-          <a href="../assets/SmithCrayResume.pdf" className="btn btn-primary">
+          <a href={resumePdf} target="_blank" className="btn btn-primary">
             Download my Resume
           </a>
         </Col>
