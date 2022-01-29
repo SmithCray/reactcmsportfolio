@@ -1,0 +1,56 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: aqua;
+}
+#venueFinder {
+  margin: 20px;
+}
+#aboutMe {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#headLine {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar {
+  color: black;
+  font-size: 65px;
+}
+.subHeader {
+  margin-left: 15vw;
+}
+.article {
+  text-align: center;
+  margin: 40px;
+}
+.anchors {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  margin-right: 15vw;
+}
+.card-title {
+  font-size: 40px;
+}
+.card-body {
+  margin: 25px;
+  color: black;
+  background-color: #fff;
+  flex: 1 !important;
+}
+.footer {
+  color: black;
+}
+.contact {
+  margin: 25px;
+}
+.link {
+  font-size: 15px;
+  display: flex;
+  justify-content: right;
+  margin-left: 30px;
+}
