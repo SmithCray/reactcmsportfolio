@@ -134,7 +134,7 @@ function Body() {
         </Col>
       </Row>
       <Row>
-        <Col id="myWork" className="card-body">
+        <Col className="card-body">
           <img
             className="card-img-top"
             src={horiseon}
@@ -155,7 +155,7 @@ function Body() {
             href="https://smithcray.github.io/cs-horiseon-code-refactor/"
             className="btn btn-primary"
           >
-            Go somewhere
+            Look at them now!
           </a>
         </Col>
 
